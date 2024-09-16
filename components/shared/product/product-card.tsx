@@ -1,7 +1,7 @@
    import Image from 'next/image'
    import Link from 'next/link'
    import React from 'react'
-
+   import { Product } from '@/types'
    import { Card, CardContent, CardHeader } from '@/components/ui/card'
 
    const ProductCard = ({ product }: { product: any }) => {
